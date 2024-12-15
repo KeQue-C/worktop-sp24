@@ -14,14 +14,12 @@ public class Arithmetic {
         return a * b;
     }
 
-    /** Computes sum of two ints (incorrectly).
+    /** Computes sum of two ints (incorrectly in origin, but I have fixed it now).
      * @param a Value 1
      * @param b Value 2
      * @return Sum of a and b
      * */
-    public static int sum(int a, int b) {
-        return a * b;
-    }
+    public static int sum(int a, int b) { return a + b; }
 
     public static void main(String[] args) {
         System.out.println("Give me a number! (no decimals, please)");
